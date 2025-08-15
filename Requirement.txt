@@ -1,0 +1,24 @@
+# Core requirements
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+joblib==1.2.0
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning models
+xgboost==1.7.5
+scipy==1.10.1
+
+# Deep Learning (for LSTM)
+tensorflow==2.12.0
+keras==2.12.0
+
+# Date/time handling
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Optional (for hyperparameter tuning)
+optuna==3.1.1  # If you used RandomizedSearchCV/GridSearchCV
